@@ -30,7 +30,7 @@ export default function Navbar() {
           <span className="font-display tracking-wide text-ivory hidden xl:inline whitespace-nowrap text-xl">
             KAMAKHYA INTERIOR DESIGNS
           </span>
-          <span className="font-display tracking-wide text-ivory hidden sm:inline xl:hidden whitespace-nowrap text-lg">
+          <span className="font-display tracking-wide text-ivory inline xl:hidden whitespace-nowrap text-lg">
             <span className="text-gold">KAMAKHYA</span>
           </span>
         </Link>
