@@ -19,19 +19,16 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 bg-black/95 backdrop-blur-sm border-b border-gold/20">
       <div className="max-w-6xl mx-auto px-4 md:px-6 lg:px-10 flex items-center justify-between h-20 gap-2 md:gap-4">
-        <Link href="/" className="flex items-center gap-3 shrink-0 min-w-0">
+        <Link href="/" className="flex items-center gap-2 md:gap-3 shrink-0 min-w-0">
           <Image
             src="/images/logo.png"
             alt="Kamakhya Interior Designs"
-            width={48}
-            height={48}
-            className="rounded-full shrink-0"
+            width={44}
+            height={44}
+            className="rounded-full shrink-0 w-9 h-9 md:w-12 md:h-12"
           />
-          <span className="font-display tracking-wide text-ivory hidden xl:inline whitespace-nowrap text-xl">
+          <span className="font-display tracking-wide text-ivory whitespace-nowrap text-sm sm:text-base md:text-lg xl:text-xl leading-tight">
             KAMAKHYA INTERIOR DESIGNS
-          </span>
-          <span className="font-display tracking-wide text-ivory inline xl:hidden whitespace-nowrap text-lg">
-            <span className="text-gold">KAMAKHYA</span>
           </span>
         </Link>
 
