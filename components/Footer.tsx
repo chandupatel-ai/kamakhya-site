@@ -99,12 +99,12 @@ export default function Footer() {
             <li className="flex items-center gap-2">
               <InstagramIcon size={16} className="text-gold shrink-0" />
               <a
-                href="https://instagram.com/kamakhyainteriordesigns"
+                href="https://www.instagram.com/kamakhya_interiordesigns?igsh=MXhjMmFibG9kNW9pMA%3D%3D&utm_source=qr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-ivory"
               >
-                @kamakhyainteriordesigns
+                @kamakhya_interiordesigns
               </a>
             </li>
             <li className="flex items-center gap-2">
