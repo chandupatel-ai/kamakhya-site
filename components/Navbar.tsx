@@ -27,8 +27,9 @@ export default function Navbar() {
             height={44}
             className="rounded-full shrink-0 w-9 h-9 md:w-12 md:h-12"
           />
-          <span className="font-display tracking-wide text-ivory whitespace-nowrap text-sm sm:text-base md:text-lg xl:text-xl leading-tight">
-            KAMAKHYA INTERIOR DESIGNS
+          <span className="font-display tracking-wide text-ivory leading-tight flex flex-col md:flex-row md:whitespace-nowrap">
+            <span className="text-sm sm:text-base md:text-lg xl:text-xl md:mr-1.5">KAMAKHYA</span>
+            <span className="text-[10px] sm:text-xs md:text-lg xl:text-xl text-gold md:text-ivory tracking-widest md:tracking-wide">INTERIOR DESIGNS</span>
           </span>
         </Link>
 
