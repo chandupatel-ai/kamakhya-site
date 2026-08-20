@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+:root {
+  /* Palette sourced directly from the Kamakhya logo */
+  --color-gold: #b8863e;
+  --color-gold-light: #d9b776;
+  --color-gold-dark: #8c6a28;
+  --color-black: #0a1f38;
+  --color-charcoal: #12314f;
+  --color-ivory: #f5e8d4;
+  --background: #f5e8d4;
+  --foreground: #0a1f38;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-gold: var(--color-gold);
+  --color-gold-light: var(--color-gold-light);
+  --color-gold-dark: var(--color-gold-dark);
+  --color-black: var(--color-black);
+  --color-charcoal: var(--color-charcoal);
+  --color-ivory: var(--color-ivory);
+  --font-display: var(--font-cormorant);
+  --font-body: var(--font-lato);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-display), serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.section-pad {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+@media (max-width: 768px) {
+  .section-pad {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
